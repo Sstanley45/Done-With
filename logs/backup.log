@@ -1,0 +1,78 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240423_120002-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-23 12:00:20.567646
+Config  : ./done_with.com/private/backups/20240423_120002-done_with_com-site_config_backup.json 94.0B
+Database: ./done_with.com/private/backups/20240423_120002-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240424_060002-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-24 06:00:55.439926
+Config  : ./done_with.com/private/backups/20240424_060002-done_with_com-site_config_backup.json 116.0B
+Database: ./done_with.com/private/backups/20240424_060002-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240424_120002-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-24 12:00:10.499236
+Config  : ./done_with.com/private/backups/20240424_120002-done_with_com-site_config_backup.json 116.0B
+Database: ./done_with.com/private/backups/20240424_120002-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240425_000002-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-25 00:00:07.664465
+Config  : ./done_with.com/private/backups/20240425_000002-done_with_com-site_config_backup.json 116.0B
+Database: ./done_with.com/private/backups/20240425_000002-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240426_120003-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-26 12:00:08.768039
+Config  : ./done_with.com/private/backups/20240426_120003-done_with_com-site_config_backup.json 116.0B
+Database: ./done_with.com/private/backups/20240426_120003-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240426_180002-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-26 18:00:05.524413
+Config  : ./done_with.com/private/backups/20240426_180002-done_with_com-site_config_backup.json 138.0B
+Database: ./done_with.com/private/backups/20240426_180002-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240429_000019-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-29 00:01:01.946784
+Config  : ./done_with.com/private/backups/20240429_000019-done_with_com-site_config_backup.json 138.0B
+Database: ./done_with.com/private/backups/20240429_000019-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240429_060019-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-29 06:01:01.357701
+Config  : ./done_with.com/private/backups/20240429_060019-done_with_com-site_config_backup.json 138.0B
+Database: ./done_with.com/private/backups/20240429_060019-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240429_120014-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-29 12:00:34.457603
+Config  : ./done_with.com/private/backups/20240429_120014-done_with_com-site_config_backup.json 138.0B
+Database: ./done_with.com/private/backups/20240429_120014-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240429_180002-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-29 18:00:17.125865
+Config  : ./done_with.com/private/backups/20240429_180002-done_with_com-site_config_backup.json 138.0B
+Database: ./done_with.com/private/backups/20240429_180002-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240430_000015-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-04-30 00:00:55.661836
+Config  : ./done_with.com/private/backups/20240430_000015-done_with_com-site_config_backup.json 139.0B
+Database: ./done_with.com/private/backups/20240430_000015-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240502_000020-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-05-02 00:01:19.737470
+Config  : ./done_with.com/private/backups/20240502_000020-done_with_com-site_config_backup.json 139.0B
+Database: ./done_with.com/private/backups/20240502_000020-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _5a0a6202f076fdb2 -p********** _5a0a6202f076fdb2 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./done_with.com/private/backups/20240502_120015-done_with_com-database.sql.gz
+
+Backup Summary for done_with.com at 2024-05-02 12:00:57.748469
+Config  : ./done_with.com/private/backups/20240502_120015-done_with_com-site_config_backup.json 139.0B
+Database: ./done_with.com/private/backups/20240502_120015-done_with_com-database.sql.gz         1.1MiB
+Backup for Site done_with.com has been successfully completed

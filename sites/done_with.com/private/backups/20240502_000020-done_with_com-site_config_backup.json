@@ -1,0 +1,7 @@
+{
+ "allow_tests": true,
+ "db_name": "_5a0a6202f076fdb2",
+ "db_password": "db0DMQHbVOkyM6bh",
+ "db_type": "mariadb",
+ "developer_mode": 1
+}

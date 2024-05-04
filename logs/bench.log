@@ -1,0 +1,201 @@
+2024-04-22 20:28:20,501 DEBUG cd tut-bench-two && python3 -m venv env
+2024-04-22 20:28:26,007 DEBUG cd tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet --upgrade pip
+2024-04-22 20:28:29,577 DEBUG cd tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet wheel
+2024-04-22 20:28:33,400 LOG Getting frappe
+2024-04-22 20:28:33,400 DEBUG cd tut-bench-two/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2024-04-22 20:29:24,684 LOG Installing frappe
+2024-04-22 20:29:24,684 DEBUG cd /home/lucky/tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet --upgrade -e /home/lucky/tut-bench-two/apps/frappe 
+2024-04-22 20:30:49,025 DEBUG cd /home/lucky/tut-bench-two/apps/frappe && yarn install --check-files
+2024-04-22 20:52:40,668 DEBUG cd /home/lucky/tut-bench-two && sudo supervisorctl restart frappe:
+2024-04-22 20:52:40,993 WARNING cd /home/lucky/tut-bench-two && sudo supervisorctl restart frappe: executed with exit code 2
+2024-04-22 20:52:40,993 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-04-22 20:52:40,993 DEBUG cd tut-bench-two && bench build
+2024-04-22 20:52:41,151 INFO /usr/local/bin/bench build
+2024-04-22 20:53:09,811 LOG setting up backups
+2024-04-22 20:53:09,893 LOG backups were set up
+2024-04-22 20:53:09,893 INFO Bench tut-bench-two initialized
+2024-04-22 20:56:45,352 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2024-04-22 20:56:46,065 LOG Getting erpnext
+2024-04-22 20:56:46,066 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2024-04-22 20:57:39,339 LOG Installing erpnext
+2024-04-22 20:57:39,340 DEBUG cd /home/lucky/tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet --upgrade -e /home/lucky/tut-bench-two/apps/erpnext 
+2024-04-22 20:57:57,526 DEBUG cd /home/lucky/tut-bench-two/apps/erpnext && yarn install --check-files
+2024-04-22 20:57:59,432 DEBUG bench build --app erpnext
+2024-04-22 20:57:59,589 INFO /usr/local/bin/bench build --app erpnext
+2024-04-22 20:58:10,723 DEBUG cd /home/lucky/tut-bench-two && sudo supervisorctl restart frappe:
+2024-04-22 20:58:11,046 WARNING cd /home/lucky/tut-bench-two && sudo supervisorctl restart frappe: executed with exit code 2
+2024-04-22 20:58:11,046 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-04-22 20:59:30,357 INFO /usr/local/bin/bench new-site done_with.com
+2024-04-22 21:06:20,376 INFO /usr/local/bin/bench --site done_with.com install-app erpnext
+2024-04-22 21:12:29,879 INFO /usr/local/bin/bench start
+2024-04-22 21:12:30,719 INFO /usr/local/bin/bench worker
+2024-04-22 21:12:30,726 INFO /usr/local/bin/bench serve --port 8003
+2024-04-22 21:12:30,736 INFO /usr/local/bin/bench watch
+2024-04-22 21:12:30,755 INFO /usr/local/bin/bench schedule
+2024-04-22 21:52:08,456 INFO /usr/local/bin/bench start
+2024-04-22 21:52:09,344 INFO /usr/local/bin/bench watch
+2024-04-22 21:52:09,349 INFO /usr/local/bin/bench serve --port 8003
+2024-04-22 21:52:09,390 INFO /usr/local/bin/bench worker
+2024-04-22 21:52:09,432 INFO /usr/local/bin/bench schedule
+2024-04-22 21:57:16,463 INFO /usr/local/bin/bench use done_with.com
+2024-04-22 21:57:21,822 INFO /usr/local/bin/bench start
+2024-04-22 21:57:22,339 INFO /usr/local/bin/bench schedule
+2024-04-22 21:57:22,394 INFO /usr/local/bin/bench worker
+2024-04-22 21:57:22,411 INFO /usr/local/bin/bench watch
+2024-04-22 21:57:22,452 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 08:24:06,881 INFO /usr/local/bin/bench --site done_with.com install-app done_with
+2024-04-23 08:25:33,232 INFO /usr/local/bin/bench new-app done_with
+2024-04-23 08:25:33,295 LOG creating new app done_with
+2024-04-23 08:26:30,142 LOG Installing done_with
+2024-04-23 08:26:30,146 DEBUG cd /home/lucky/tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet --upgrade -e /home/lucky/tut-bench-two/apps/done_with 
+2024-04-23 08:26:40,452 WARNING cd /home/lucky/tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet --upgrade -e /home/lucky/tut-bench-two/apps/done_with  executed with exit code 1
+2024-04-23 08:26:40,452 WARNING /usr/local/bin/bench new-app done_with executed with exit code 1
+2024-04-23 08:27:35,355 INFO /usr/local/bin/bench new-app done_with
+2024-04-23 08:27:35,363 LOG creating new app done_with
+2024-04-23 08:28:15,332 LOG Installing done_with
+2024-04-23 08:28:15,334 DEBUG cd /home/lucky/tut-bench-two && /home/lucky/tut-bench-two/env/bin/python -m pip install --quiet --upgrade -e /home/lucky/tut-bench-two/apps/done_with 
+2024-04-23 08:28:22,508 DEBUG bench build --app done_with
+2024-04-23 08:28:22,671 INFO /usr/local/bin/bench build --app done_with
+2024-04-23 08:28:47,021 DEBUG cd /home/lucky/tut-bench-two && sudo supervisorctl restart frappe:
+2024-04-23 08:28:47,348 WARNING cd /home/lucky/tut-bench-two && sudo supervisorctl restart frappe: executed with exit code 2
+2024-04-23 08:28:47,349 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-04-23 08:29:10,026 INFO /usr/local/bin/bench --site done_with.com install-app done_with
+2024-04-23 08:30:08,528 INFO /usr/local/bin/bench start
+2024-04-23 08:30:09,369 INFO /usr/local/bin/bench worker
+2024-04-23 08:30:09,407 INFO /usr/local/bin/bench schedule
+2024-04-23 08:30:09,419 INFO /usr/local/bin/bench watch
+2024-04-23 08:30:09,438 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 10:31:45,613 INFO /usr/local/bin/bench start
+2024-04-23 10:31:46,519 INFO /usr/local/bin/bench schedule
+2024-04-23 10:31:46,547 INFO /usr/local/bin/bench watch
+2024-04-23 10:31:46,563 INFO /usr/local/bin/bench worker
+2024-04-23 10:31:46,583 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 12:00:01,576 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-23 12:27:56,563 INFO /usr/local/bin/bench start
+2024-04-23 12:27:57,121 INFO /usr/local/bin/bench worker
+2024-04-23 12:27:57,128 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 12:27:57,133 INFO /usr/local/bin/bench schedule
+2024-04-23 12:27:57,137 INFO /usr/local/bin/bench watch
+2024-04-23 12:29:43,459 INFO /usr/local/bin/bench start
+2024-04-23 12:29:43,982 INFO /usr/local/bin/bench schedule
+2024-04-23 12:29:44,031 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 12:29:44,057 INFO /usr/local/bin/bench worker
+2024-04-23 12:29:44,090 INFO /usr/local/bin/bench watch
+2024-04-23 15:30:28,414 INFO /usr/local/bin/bench mariadb
+2024-04-23 15:40:19,593 INFO /usr/local/bin/bench --site done_with_it.com migrate
+2024-04-23 16:41:10,464 INFO /usr/local/bin/bench --site done_with.com uninstall done_with_it
+2024-04-23 16:41:34,952 INFO /usr/local/bin/bench --site done_with.com uninstall done_with_it
+2024-04-23 16:52:27,223 INFO /usr/local/bin/bench start
+2024-04-23 16:52:27,806 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 16:52:27,817 INFO /usr/local/bin/bench schedule
+2024-04-23 16:52:27,840 INFO /usr/local/bin/bench worker
+2024-04-23 16:52:27,848 INFO /usr/local/bin/bench watch
+2024-04-23 19:23:41,309 INFO /usr/local/bin/bench start
+2024-04-23 19:23:42,216 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 19:23:42,243 INFO /usr/local/bin/bench worker
+2024-04-23 19:23:42,258 INFO /usr/local/bin/bench watch
+2024-04-23 19:23:42,270 INFO /usr/local/bin/bench schedule
+2024-04-23 19:32:04,080 INFO /usr/local/bin/bench start
+2024-04-23 19:32:04,603 INFO /usr/local/bin/bench watch
+2024-04-23 19:32:04,651 INFO /usr/local/bin/bench worker
+2024-04-23 19:32:04,654 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 19:32:04,740 INFO /usr/local/bin/bench schedule
+2024-04-23 19:36:07,128 INFO /usr/local/bin/bench start
+2024-04-23 19:36:07,709 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 19:36:07,736 INFO /usr/local/bin/bench worker
+2024-04-23 19:36:07,753 INFO /usr/local/bin/bench schedule
+2024-04-23 19:36:07,823 INFO /usr/local/bin/bench watch
+2024-04-23 19:38:38,576 INFO /usr/local/bin/bench use done_with.com
+2024-04-23 19:38:44,245 INFO /usr/local/bin/bench start
+2024-04-23 19:38:44,786 INFO /usr/local/bin/bench schedule
+2024-04-23 19:38:44,809 INFO /usr/local/bin/bench worker
+2024-04-23 19:38:44,824 INFO /usr/local/bin/bench serve --port 8003
+2024-04-23 19:38:44,838 INFO /usr/local/bin/bench watch
+2024-04-23 23:26:01,623 INFO /usr/local/bin/bench mariadb
+2024-04-23 23:33:00,068 INFO /usr/local/bin/bench mariadb
+2024-04-24 05:29:18,832 INFO /usr/local/bin/bench start
+2024-04-24 05:29:19,978 INFO /usr/local/bin/bench serve --port 8003
+2024-04-24 05:29:19,994 INFO /usr/local/bin/bench watch
+2024-04-24 05:29:19,994 INFO /usr/local/bin/bench schedule
+2024-04-24 05:29:20,045 INFO /usr/local/bin/bench worker
+2024-04-24 06:00:01,973 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-24 09:03:08,772 INFO /usr/local/bin/bench start
+2024-04-24 09:03:09,640 INFO /usr/local/bin/bench worker
+2024-04-24 09:03:09,646 INFO /usr/local/bin/bench watch
+2024-04-24 09:03:09,695 INFO /usr/local/bin/bench serve --port 8003
+2024-04-24 09:03:09,700 INFO /usr/local/bin/bench schedule
+2024-04-24 10:36:51,797 INFO /usr/local/bin/bench mariadb
+2024-04-24 11:28:18,952 INFO /usr/local/bin/bench mariadb
+2024-04-24 11:33:25,555 INFO /usr/local/bin/bench mariadb
+2024-04-24 11:39:12,777 INFO /usr/local/bin/bench mariadb
+2024-04-24 11:41:53,261 INFO /usr/local/bin/bench mariadb
+2024-04-24 11:42:47,681 INFO /usr/local/bin/bench mariadb
+2024-04-24 11:43:32,396 INFO /usr/local/bin/bench mariadb
+2024-04-24 12:00:01,695 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-24 16:00:30,653 INFO /usr/local/bin/bench start
+2024-04-24 16:00:33,319 INFO /usr/local/bin/bench watch
+2024-04-24 16:00:33,336 INFO /usr/local/bin/bench serve --port 8003
+2024-04-24 16:00:33,403 INFO /usr/local/bin/bench worker
+2024-04-24 16:00:33,423 INFO /usr/local/bin/bench schedule
+2024-04-24 16:22:41,111 INFO /usr/local/bin/bench start
+2024-04-24 16:22:42,697 INFO /usr/local/bin/bench serve --port 8003
+2024-04-24 16:22:42,698 INFO /usr/local/bin/bench schedule
+2024-04-24 16:22:42,736 INFO /usr/local/bin/bench worker
+2024-04-24 16:22:42,747 INFO /usr/local/bin/bench watch
+2024-04-24 19:48:57,338 INFO /usr/local/bin/bench start
+2024-04-24 19:48:58,408 INFO /usr/local/bin/bench schedule
+2024-04-24 19:48:58,504 INFO /usr/local/bin/bench watch
+2024-04-24 19:48:58,541 INFO /usr/local/bin/bench serve --port 8003
+2024-04-24 19:48:58,580 INFO /usr/local/bin/bench worker
+2024-04-24 21:26:31,451 INFO /usr/local/bin/bench mariadb
+2024-04-24 21:27:05,962 INFO /usr/local/bin/bench mariadb
+2024-04-24 23:05:07,891 INFO /usr/local/bin/bench start
+2024-04-24 23:05:08,791 INFO /usr/local/bin/bench worker
+2024-04-24 23:05:08,820 INFO /usr/local/bin/bench watch
+2024-04-24 23:05:08,821 INFO /usr/local/bin/bench schedule
+2024-04-24 23:05:08,892 INFO /usr/local/bin/bench serve --port 8003
+2024-04-25 00:00:01,387 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-26 08:53:02,779 INFO /usr/local/bin/bench start
+2024-04-26 08:53:03,723 INFO /usr/local/bin/bench serve --port 8003
+2024-04-26 08:53:03,756 INFO /usr/local/bin/bench worker
+2024-04-26 08:53:03,757 INFO /usr/local/bin/bench watch
+2024-04-26 08:53:03,818 INFO /usr/local/bin/bench schedule
+2024-04-26 12:00:01,971 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-26 17:12:09,021 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.listing.test_listing
+2024-04-26 17:12:29,557 INFO /usr/local/bin/bench --site done_with.com set-config allow_tests true
+2024-04-26 17:12:33,213 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.listing.test_listing
+2024-04-26 17:13:06,235 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:14:38,317 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:15:05,009 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:15:27,394 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:16:29,375 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:18:52,952 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:19:34,572 INFO /usr/local/bin/bench mariadb
+2024-04-26 17:35:24,848 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing.test_our_listing_document
+2024-04-26 17:35:56,485 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 17:36:39,694 INFO /usr/local/bin/bench start
+2024-04-26 17:36:41,649 INFO /usr/local/bin/bench serve --port 8003
+2024-04-26 17:36:41,653 INFO /usr/local/bin/bench watch
+2024-04-26 17:36:41,662 INFO /usr/local/bin/bench worker
+2024-04-26 17:36:41,671 INFO /usr/local/bin/bench schedule
+2024-04-26 17:42:17,716 INFO /usr/local/bin/bench --site done_with.com run-tests --module done_with.done_with.doctype.listing.test_listing
+2024-04-26 18:00:02,182 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-26 18:02:52,546 INFO /usr/local/bin/bench --site done_with.com run-tests --module apps.done_with.done_with.done_with.doctype.listing.test_listing
+2024-04-26 18:03:32,924 INFO /usr/local/bin/bench --site done_with.com run-tests --module apps.done_with.done_with.done_with.doctype.listing.test_listing --test test_our_listing_document
+2024-04-29 00:00:01,523 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-29 06:00:01,867 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-29 12:00:02,759 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-29 16:13:07,305 INFO /usr/local/bin/bench start
+2024-04-29 16:13:08,218 INFO /usr/local/bin/bench serve --port 8003
+2024-04-29 16:13:08,222 INFO /usr/local/bin/bench schedule
+2024-04-29 16:13:08,226 INFO /usr/local/bin/bench watch
+2024-04-29 16:13:08,285 INFO /usr/local/bin/bench worker
+2024-04-29 18:00:01,660 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-29 21:50:22,651 INFO /usr/local/bin/bench start
+2024-04-29 21:50:23,484 INFO /usr/local/bin/bench watch
+2024-04-29 21:50:23,488 INFO /usr/local/bin/bench worker
+2024-04-29 21:50:23,509 INFO /usr/local/bin/bench schedule
+2024-04-29 21:50:23,533 INFO /usr/local/bin/bench serve --port 8003
+2024-04-30 00:00:01,625 INFO /usr/local/bin/bench --verbose --site all backup
+2024-05-02 00:00:02,959 INFO /usr/local/bin/bench --verbose --site all backup
+2024-05-02 12:00:01,749 INFO /usr/local/bin/bench --verbose --site all backup
